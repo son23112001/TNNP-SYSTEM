@@ -1,6 +1,4 @@
 return function(script_key)
-    function runScript(script_key)
-        print(script_key)
-    end
-    runScript(script_key)
+    print("Script key received:", script_key)
+    -- Add the code you want to run inside this function
 end
