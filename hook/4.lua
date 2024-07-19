@@ -1,1 +1,1 @@
-_G.isHooked = "Hooked"
+isHooked = "Hooked"
