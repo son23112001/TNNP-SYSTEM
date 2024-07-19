@@ -1,5 +1,5 @@
 local createNotification = require(game.ReplicatedStorage.Notification)
-
+local isHooked = ""
 hookfunction(createNotification.new, function(message, b)
     isHooked = Pretranslate(message)
     message = Pretranslate(message)
