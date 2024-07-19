@@ -14,4 +14,4 @@ end
 
 disableHook(GuideModule, "GuideModule")
 disableHook(Death, "Death")
-disableHook(Respawn, "Respawn")
+disableHook(Respawn, "Respaw")
