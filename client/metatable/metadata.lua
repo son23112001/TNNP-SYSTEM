@@ -1,6 +1,6 @@
 local metadata = {
   hub = {
-    name = "TNNP SYSTEM",
+    name = "Crazzy Hub V3",
     game = "Blox Fruit",
     version = "1.0a",
   },
