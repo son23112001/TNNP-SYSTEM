@@ -1,0 +1,201 @@
+{
+    "file_name": "DragonOrbs.json",
+    "objects": [
+        {
+            "idx": "Itg",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": []
+        },
+        {
+            "idx": "kdorb",
+            "type": "Input",
+            "text": "1000"
+        },
+        {
+            "idx": "Tts1",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "ltfd",
+            "type": "Input",
+            "text": "2250"
+        },
+        {
+            "idx": "equipweapon",
+            "type": "Dropdown",
+            "value": "Sword"
+        },
+        {
+            "idx": "Ml",
+            "type": "Dropdown",
+            "value": "Dragon's Orb"
+        },
+        {
+            "idx": "flaglevel",
+            "type": "Input",
+            "text": 10
+        },
+        {
+            "idx": "m1",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Aus3",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Fruit",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Tts3",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Sword",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Acc",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "setwebhook",
+            "type": "Input",
+            "text": ""
+        },
+        {
+            "idx": "aswh",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "contentwebhook",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": {
+                "Bosses": true,
+                "PlayerStatus": true,
+                "Console": true
+            }
+        },
+        {
+            "idx": "Etfr",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "fpscap",
+            "type": "Input",
+            "text": ""
+        },
+        {
+            "idx": "Defense",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "fsm",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "whitescreen",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "us",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Sm",
+            "type": "Dropdown",
+            "value": "Easy"
+        },
+        {
+            "idx": "Etr",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Aus2",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Melee",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "mouselock",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "useweapons",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": {
+                "SW": true
+            }
+        },
+        {
+            "idx": "Asdf",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "afl",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "tf",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": []
+        },
+        {
+            "idx": "aimlock",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "bsa",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": []
+        },
+        {
+            "idx": "Pc",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Tts2",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "ofd",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Etfm",
+            "type": "Toggle",
+            "value": true
+        }
+    ]
+}
