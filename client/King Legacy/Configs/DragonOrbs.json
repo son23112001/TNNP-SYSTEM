@@ -10,7 +10,7 @@
         {
             "idx": "kdorb",
             "type": "Input",
-            "text": "1000"
+            "text": 1000
         },
         {
             "idx": "Tts1",
@@ -20,7 +20,7 @@
         {
             "idx": "ltfd",
             "type": "Input",
-            "text": "2250"
+            "text": 2250
         },
         {
             "idx": "equipweapon",
@@ -95,7 +95,7 @@
         {
             "idx": "fpscap",
             "type": "Input",
-            "text": "30"
+            "text": 30
         },
         {
             "idx": "Defense",
