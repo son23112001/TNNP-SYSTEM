@@ -95,7 +95,7 @@
         {
             "idx": "fpscap",
             "type": "Input",
-            "text": ""
+            "text": "30"
         },
         {
             "idx": "Defense",
