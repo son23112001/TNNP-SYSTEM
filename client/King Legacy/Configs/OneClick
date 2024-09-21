@@ -1,0 +1,225 @@
+{
+    "file_name": "OneClick.json",
+    "objects": [
+        {
+            "idx": "Itg",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": {
+                "Buso": true,
+                "Electro": true,
+                "WaterStyle": true,
+                "DarkLeg": true,
+                "Ken": true,
+                "DragonClaw": true,
+                "Cyborg": true
+            }
+        },
+        {
+            "idx": "kdorb",
+            "type": "Input",
+            "text": ""
+        },
+        {
+            "idx": "Tts1",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "ltfd",
+            "type": "Input",
+            "text": ""
+        },
+        {
+            "idx": "equipweapon",
+            "type": "Dropdown",
+            "value": "Automatic"
+        },
+        {
+            "idx": "Ml",
+            "type": "Dropdown",
+            "value": "Leather"
+        },
+        {
+            "idx": "flaglevel",
+            "type": "Input",
+            "text": 10
+        },
+        {
+            "idx": "m1",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Aus3",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Fruit",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Tts3",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Sword",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Acc",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "setwebhook",
+            "type": "Input",
+            "text": ""
+        },
+        {
+            "idx": "aswh",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "contentwebhook",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": {
+                "Bosses": true,
+                "PlayerStatus": true,
+                "Console": true
+            }
+        },
+        {
+            "idx": "Etfr",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "fpscap",
+            "type": "Input",
+            "text": "20"
+        },
+        {
+            "idx": "Defense",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "fsm",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "whitescreen",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "us",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Sm",
+            "type": "Dropdown",
+            "value": "Easy"
+        },
+        {
+            "idx": "Etr",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Aus2",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "Melee",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "mouselock",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "useweapons",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": {
+                "SW": true,
+                "DF": true,
+                "FS": true
+            }
+        },
+        {
+            "idx": "Asdf",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "afl",
+            "type": "Toggle",
+            "value": true
+        },
+        {
+            "idx": "tf",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": {
+                "Legendary": true,
+                "Common": true,
+                "Epic": true,
+                "Uncommon": true,
+                "Rare": true
+            }
+        },
+        {
+            "idx": "aimlock",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "bsa",
+            "type": "Dropdown",
+            "mutli": true,
+            "value": {
+                "SeaKing": true,
+                "King Samurai [Lv. 3500]": true,
+                "Ms. Mother [Lv. 7500]": true,
+                "Dragon [Lv. 5000]": true,
+                "HydraSeaKing": true,
+                "Ghost Ship": true,
+                "Expert Swordman [Lv. 3000]": true
+            }
+        },
+        {
+            "idx": "Pc",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Tts2",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "ofd",
+            "type": "Toggle",
+            "value": false
+        },
+        {
+            "idx": "Etfm",
+            "type": "Toggle",
+            "value": false
+        }
+    ]
+}
