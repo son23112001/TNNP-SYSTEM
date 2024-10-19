@@ -10,7 +10,7 @@ _G.Configs = {
         Limited = 100,      -- Time limit for certain actions
         Continue = 10,      -- Number of allowed continuous actions
         RandomATK = 30,     -- Random attack interval in seconds
-        IgnoreFruits = {"Buddha-Buddha", "Leopard-Leopard", "Portal-Portal"},  -- Fruits to ignore during attack or farm
+        IgnoreFruits = {"Buddha-Buddha", "Leopard-Leopard", "Portal-Portal", "Kitsune-Kitsune"},  -- Fruits to ignore during attack or farm
         Webhook = {
             Enabled = false,  -- Enables sending logs to a Discord webhook
             Logs = {PlayerStatus = true, Console = false},  -- Log settings for Webhook
