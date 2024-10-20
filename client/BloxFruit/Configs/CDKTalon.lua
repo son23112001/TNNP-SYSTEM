@@ -15,12 +15,12 @@ return {
                     X = {
                         Enable = true,
                         Number = 5,
-                        HoldTime = 0.75,
+                        HoldTime = 0.45,
                     },
                     Z = {
                         Enable = true,
                         Number = 4,
-                        HoldTime = 1.75,
+                        HoldTime = 1.25,
                     },
                 },
             },
@@ -65,12 +65,12 @@ return {
                     C = {
                         Enable = true,
                         Number = 1,
-                        HoldTime = 0.3,
+                        HoldTime = 0.25,
                     },
                     Z = {
                         Enable = true,
                         Number = 3,
-                        HoldTime = 0.15,
+                        HoldTime = 0.1,
                     },
                 },
             },
@@ -106,7 +106,7 @@ return {
             },
             URL = "https://discord.com/api/webhooks/1283920521435676713/sYKOXkML2_eWlUMyfA3zcmSlDV5l5Ir9PKmL7uHOFDS-MpatBMZvksimJWgDEbgE-ZN9",
         },
-        RandomATK = 45,
+        RandomATK = 30,
         Limited = 100,
         MethodClicks = {
             Melee = true,
@@ -142,6 +142,6 @@ return {
         AutoBounty = true,
         Ken = true,
         Random = false,
-        Team = "Marines",
+        Team = "Pirates",
     },
 }
