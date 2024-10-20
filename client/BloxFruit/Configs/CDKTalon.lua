@@ -4,7 +4,7 @@ return {
         BlackScreen = {
             Enabled = true,
             Font = Enum.Font.FredokaOne,
-            Transparency = 0.25,
+            Transparency = 0.5,
         },
     },
     allowed_actions = {
@@ -14,13 +14,13 @@ return {
                 Skills = {
                     X = {
                         Enable = true,
-                        Number = 5,
-                        HoldTime = 0.5,
+                        Number = 4,
+                        HoldTime = 1.1,
                     },
                     Z = {
                         Enable = true,
-                        Number = 4,
-                        HoldTime = 1.15,
+                        Number = 5,
+                        HoldTime = 0.5,
                     },
                 },
             },
@@ -60,17 +60,17 @@ return {
                     X = {
                         Enable = true,
                         Number = 2,
-                        HoldTime = 0.2,
+                        HoldTime = 0.3,
                     },
                     C = {
                         Enable = true,
                         Number = 1,
-                        HoldTime = 0.275,
+                        HoldTime = 0.75,
                     },
                     Z = {
                         Enable = true,
                         Number = 3,
-                        HoldTime = 0.1,
+                        HoldTime = 0.25,
                     },
                 },
             },
@@ -93,7 +93,7 @@ return {
         AutoView = false,
         SafeZone = {
             Enabled = true,
-            Max = 40000,
+            Max = 30000,
             ProtectCD = true,
             HighestHealth = 50,
             LowestHealth = 50,
@@ -106,8 +106,8 @@ return {
             },
             URL = "https://discord.com/api/webhooks/1283920521435676713/sYKOXkML2_eWlUMyfA3zcmSlDV5l5Ir9PKmL7uHOFDS-MpatBMZvksimJWgDEbgE-ZN9",
         },
-        RandomATK = 30,
-        Limited = 100,
+        RandomATK = 40,
+        Limited = 60,
         MethodClicks = {
             Melee = true,
             CanM1At = 8000,
@@ -137,7 +137,7 @@ return {
                 },
             },
         },
-        Continue = 10,
+        Continue = 8,
         Dodge = true,
         AutoBounty = true,
         Ken = true,
