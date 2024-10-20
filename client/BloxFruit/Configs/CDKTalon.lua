@@ -15,12 +15,12 @@ return {
                     X = {
                         Enable = true,
                         Number = 5,
-                        HoldTime = 0.45,
+                        HoldTime = 0.5,
                     },
                     Z = {
                         Enable = true,
                         Number = 4,
-                        HoldTime = 1.25,
+                        HoldTime = 1.15,
                     },
                 },
             },
@@ -60,12 +60,12 @@ return {
                     X = {
                         Enable = true,
                         Number = 2,
-                        HoldTime = 0.1,
+                        HoldTime = 0.2,
                     },
                     C = {
                         Enable = true,
                         Number = 1,
-                        HoldTime = 0.25,
+                        HoldTime = 0.275,
                     },
                     Z = {
                         Enable = true,
@@ -93,7 +93,7 @@ return {
         AutoView = false,
         SafeZone = {
             Enabled = true,
-            Max = 12000,
+            Max = 40000,
             ProtectCD = true,
             HighestHealth = 50,
             LowestHealth = 50,
