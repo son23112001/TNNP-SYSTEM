@@ -9,7 +9,7 @@ _G.Configs = {
         AutoView = false,   -- Automatically changes camera view
         Limited = 100,      -- Time limit for certain actions
         Continue = 5,      -- Number of allowed continuous actions
-        RandomATK = 40,     -- Random attack interval in seconds
+        RandomATK = 45,     -- Random attack interval in seconds
         IgnoreFruits = {"Buddha-Buddha", "Leopard-Leopard", "Portal-Portal", "Kitsune-Kitsune"},  -- Fruits to ignore during attack or farm
         Webhook = {
             Enabled = false,  -- Enables sending logs to a Discord webhook
@@ -24,7 +24,7 @@ _G.Configs = {
             }},
             V4 = {Enabled = true, UseAt = 12000}  -- Uses V4 race when HP is below 12000
         },
-        MethodClicks = {Gun = true, Melee = true, Sword = false, CanM1At = 8000, Count = 5, Delay = 0.15},  -- Click attack method configuration
+        MethodClicks = {Gun = true, Melee = true, Sword = false, CanM1At = 8000, Count = 5, Delay = 0.25},  -- Click attack method configuration
         SafeZone = {
             Enabled = true,  -- Safe Zone feature enabled to prevent attacks in protected areas
             ProtectCD = true,  -- Prevents action when under cooldown protection
@@ -39,8 +39,8 @@ _G.Configs = {
                 Enable = true,  -- Enables melee weapon attacks
                 Skills = {
                     Z = {Enable = true, HoldTime = 0.35, Number = 4},  -- Melee Z skill configuration
-                    X = {Enable = true, HoldTime = 0.2, Number = 3},   -- Melee X skill configuration
-                    C = {Enable = true, HoldTime = 0.3, Number = 2}    -- Melee C skill configuration
+                    X = {Enable = true, HoldTime = 0.35, Number = 3},   -- Melee X skill configuration
+                    C = {Enable = true, HoldTime = 0.45, Number = 2}    -- Melee C skill configuration
                 },
             },
             ["Blox Fruit"] = {
