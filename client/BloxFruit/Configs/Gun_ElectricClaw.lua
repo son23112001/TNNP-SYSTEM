@@ -5,11 +5,11 @@
 _G.Configs = {
     allowed_actions = {
         AutoBounty = true,  -- Automatically targets players for bounty
-        Team = "Marines",   -- Default team (Options: "Pirates", "Marines")
+        Team = "Pirates",   -- Default team (Options: "Pirates", "Marines")
         AutoView = false,   -- Automatically changes camera view
         Limited = 100,      -- Time limit for certain actions
-        Continue = 10,      -- Number of allowed continuous actions
-        RandomATK = 30,     -- Random attack interval in seconds
+        Continue = 5,      -- Number of allowed continuous actions
+        RandomATK = 40,     -- Random attack interval in seconds
         IgnoreFruits = {"Buddha-Buddha", "Leopard-Leopard", "Portal-Portal", "Kitsune-Kitsune"},  -- Fruits to ignore during attack or farm
         Webhook = {
             Enabled = false,  -- Enables sending logs to a Discord webhook
@@ -72,7 +72,7 @@ _G.Configs = {
     Performance = {
         WhiteScreen = false,  -- Disables white screen for better performance
         BlackScreen = {
-            Enabled = false,  -- Enables black screen to save performance (disabled by default)
+            Enabled = true,  -- Enables black screen to save performance (disabled by default)
             Font = Enum.Font.FredokaOne,  -- Font for displaying messages on the black screen
             Transparency = 0.25  -- Transparency level for the black screen
         },
