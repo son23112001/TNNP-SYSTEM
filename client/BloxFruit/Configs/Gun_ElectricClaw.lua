@@ -30,7 +30,7 @@ _G.Configs = {
             ProtectCD = true,  -- Prevents action when under cooldown protection
             LowestHealth = 50,  -- Minimum health percentage for safe zone entry
             HighestHealth = 50,  -- Maximum health percentage for safe zone exit
-            Max = 30000  -- Max height limit for safe zone check
+            Max = 25000  -- Max height limit for safe zone check
         },
         Ken = true,  -- Automatically enables Ken haki when available
         Random = false,  -- Randomly uses skills from all available abilities
