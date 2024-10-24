@@ -10,7 +10,7 @@ _G.Configs = {
         Limited = 100,      -- Time limit for certain actions
         Continue = 6,      -- Number of allowed continuous actions
         RandomATK = 45,     -- Random attack interval in seconds
-        IgnoreFruits = {"Leopard-Leopard", "Portal-Portal"},  -- Fruits to ignore during attack or farm
+        IgnoreFruits = {"Portal-Portal"},  -- Fruits to ignore during attack or farm
         Webhook = {
             Enabled = false,  -- Enables sending logs to a Discord webhook
             Logs = {PlayerStatus = true, Console = false},  -- Log settings for Webhook
@@ -74,7 +74,7 @@ _G.Configs = {
         BlackScreen = {
             Enabled = true,  -- Enables black screen to save performance (disabled by default)
             Font = Enum.Font.FredokaOne,  -- Font for displaying messages on the black screen
-            Transparency = 0.35  -- Transparency level for the black screen
+            Transparency = 0.25  -- Transparency level for the black screen
         },
     }
 }
