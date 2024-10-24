@@ -56,8 +56,8 @@ _G.Configs = {
             Gun = {
                 Enable = true,  -- Enables gun weapon attacks
                 Skills = {
-                    Z = {Enable = true, HoldTime = 0.15, Number = 5},  -- Gun Z skill configuration
-                    X = {Enable = true, HoldTime = 0.16, Number = 1}   -- Gun X skill configuration
+                    Z = {Enable = true, HoldTime = 0.2, Number = 5},  -- Gun Z skill configuration
+                    X = {Enable = true, HoldTime = 0.25, Number = 1}   -- Gun X skill configuration
                 },
             },
             Sword = {
