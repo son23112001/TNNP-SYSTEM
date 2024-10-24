@@ -8,9 +8,9 @@ _G.Configs = {
         Team = "Pirates",   -- Default team (Options: "Pirates", "Marines")
         AutoView = false,   -- Automatically changes camera view
         Limited = 100,      -- Time limit for certain actions
-        Continue = 5,      -- Number of allowed continuous actions
+        Continue = 6,      -- Number of allowed continuous actions
         RandomATK = 45,     -- Random attack interval in seconds
-        IgnoreFruits = {"Buddha-Buddha", "Leopard-Leopard", "Portal-Portal", "Kitsune-Kitsune"},  -- Fruits to ignore during attack or farm
+        IgnoreFruits = {"Leopard-Leopard", "Portal-Portal"},  -- Fruits to ignore during attack or farm
         Webhook = {
             Enabled = false,  -- Enables sending logs to a Discord webhook
             Logs = {PlayerStatus = true, Console = false},  -- Log settings for Webhook
@@ -22,15 +22,15 @@ _G.Configs = {
                 Human = 8500,  -- Uses Human V3 race when HP is below 8500
                 Shark = {Stun = 2}  -- Uses Shark V3 race when stunned for more than 2 seconds
             }},
-            V4 = {Enabled = true, UseAt = 12000}  -- Uses V4 race when HP is below 12000
+            V4 = {Enabled = true, UseAt = 14000}  -- Uses V4 race when HP is below 12000
         },
-        MethodClicks = {Gun = true, Melee = true, Sword = false, CanM1At = 8000, Count = 5, Delay = 0.25},  -- Click attack method configuration
+        MethodClicks = {Gun = true, Melee = true, Sword = false, CanM1At = 11000, Count = 5, Delay = 0.25},  -- Click attack method configuration
         SafeZone = {
             Enabled = true,  -- Safe Zone feature enabled to prevent attacks in protected areas
             ProtectCD = true,  -- Prevents action when under cooldown protection
             LowestHealth = 50,  -- Minimum health percentage for safe zone entry
             HighestHealth = 50,  -- Maximum health percentage for safe zone exit
-            Max = 12000  -- Max height limit for safe zone check
+            Max = 30000  -- Max height limit for safe zone check
         },
         Ken = true,  -- Automatically enables Ken haki when available
         Random = false,  -- Randomly uses skills from all available abilities
@@ -38,8 +38,8 @@ _G.Configs = {
             Melee = {
                 Enable = true,  -- Enables melee weapon attacks
                 Skills = {
-                    Z = {Enable = true, HoldTime = 0.35, Number = 4},  -- Melee Z skill configuration
-                    X = {Enable = true, HoldTime = 0.35, Number = 3},   -- Melee X skill configuration
+                    Z = {Enable = true, HoldTime = 0.3, Number = 4},  -- Melee Z skill configuration
+                    X = {Enable = true, HoldTime = 0.28, Number = 3},   -- Melee X skill configuration
                     C = {Enable = true, HoldTime = 0.45, Number = 2}    -- Melee C skill configuration
                 },
             },
@@ -74,7 +74,7 @@ _G.Configs = {
         BlackScreen = {
             Enabled = true,  -- Enables black screen to save performance (disabled by default)
             Font = Enum.Font.FredokaOne,  -- Font for displaying messages on the black screen
-            Transparency = 0.25  -- Transparency level for the black screen
+            Transparency = 0.35  -- Transparency level for the black screen
         },
     }
 }
