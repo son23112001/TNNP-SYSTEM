@@ -12,9 +12,9 @@ _G.Configs = {
         RandomATK = 45,     -- Random attack interval in seconds
         IgnoreFruits = {"Portal-Portal"},  -- Fruits to ignore during attack or farm
         Webhook = {
-            Enabled = false,  -- Enables sending logs to a Discord webhook
+            Enabled = true,  -- Enables sending logs to a Discord webhook
             Logs = {PlayerStatus = true, Console = false},  -- Log settings for Webhook
-            URL = "" -- The Discord webhook URL for logging actions
+            URL = "https://discord.com/api/webhooks/1283920521435676713/sYKOXkML2_eWlUMyfA3zcmSlDV5l5Ir9PKmL7uHOFDS-MpatBMZvksimJWgDEbgE-ZN9" -- The Discord webhook URL for logging actions
         },
         Dodge = true,  -- Semi-auto dodge mechanic to avoid attacks
         Race = {
