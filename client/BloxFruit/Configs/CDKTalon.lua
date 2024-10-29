@@ -14,13 +14,13 @@ return {
                 Skills = {
                     X = {
                         Enable = true,
-                        Number = 4,
-                        HoldTime = 1.1,
+                        Number = 2,
+                        HoldTime = 0.1,
                     },
                     Z = {
                         Enable = true,
-                        Number = 5,
-                        HoldTime = 0.5,
+                        Number = 1,
+                        HoldTime = 0.25,
                     },
                 },
             },
@@ -59,18 +59,18 @@ return {
                 Skills = {
                     X = {
                         Enable = true,
-                        Number = 2,
-                        HoldTime = 0.3,
+                        Number = 5,
+                        HoldTime = 0.15,
                     },
                     C = {
                         Enable = true,
-                        Number = 1,
-                        HoldTime = 0.75,
+                        Number = 4,
+                        HoldTime = 0.35,
                     },
                     Z = {
                         Enable = true,
                         Number = 3,
-                        HoldTime = 0.25,
+                        HoldTime = 0.15,
                     },
                 },
             },
@@ -96,7 +96,7 @@ return {
             Max = 30000,
             ProtectCD = true,
             HighestHealth = 50,
-            LowestHealth = 50,
+            LowestHealth = 40,
         },
         Webhook = {
             Enabled = true,
@@ -106,26 +106,23 @@ return {
             },
             URL = "https://discord.com/api/webhooks/1283920521435676713/sYKOXkML2_eWlUMyfA3zcmSlDV5l5Ir9PKmL7uHOFDS-MpatBMZvksimJWgDEbgE-ZN9",
         },
-        RandomATK = 40,
-        Limited = 60,
+        RandomATK = 35,
+        Limited = 50,
         MethodClicks = {
             Melee = true,
-            CanM1At = 8000,
+            CanM1At = 9000,
             Count = 5,
-            Gun = true,
-            Delay = 0.15,
+            Gun = false,
+            Delay = 0.25,
             Sword = false,
         },
         IgnoreFruits = {
-            "Buddha-Buddha",
-            "Kitsune-Kitsune",
-            "Leopard-Leopard",
             "Portal-Portal",
         },
         Race = {
             V4 = {
                 Enabled = true,
-                UseAt = 12000,
+                UseAt = 14000,
             },
             V3 = {
                 Enabled = true,
@@ -137,7 +134,7 @@ return {
                 },
             },
         },
-        Continue = 8,
+        Continue = 7,
         Dodge = true,
         AutoBounty = true,
         Ken = true,
