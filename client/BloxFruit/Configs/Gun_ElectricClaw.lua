@@ -7,9 +7,9 @@ _G.Configs = {
         AutoBounty = true,  -- Automatically targets players for bounty
         Team = "Pirates",   -- Default team (Options: "Pirates", "Marines")
         AutoView = false,   -- Automatically changes camera view
-        Limited = 60,      -- Time limit for certain actions
+        Limited = 50,      -- Time limit for certain actions
         Continue = 7,      -- Number of allowed continuous actions
-        RandomATK = 45,     -- Random attack interval in seconds
+        RandomATK = 35,     -- Random attack interval in seconds
         IgnoreFruits = {"Portal-Portal"},  -- Fruits to ignore during attack or farm
         Webhook = {
             Enabled = true,  -- Enables sending logs to a Discord webhook
@@ -24,13 +24,13 @@ _G.Configs = {
             }},
             V4 = {Enabled = true, UseAt = 14000}  -- Uses V4 race when HP is below 12000
         },
-        MethodClicks = {Gun = true, Melee = true, Sword = false, CanM1At = 11000, Count = 5, Delay = 0.25},  -- Click attack method configuration
+        MethodClicks = {Gun = true, Melee = true, Sword = false, CanM1At = 9000, Count = 5, Delay = 0.35},  -- Click attack method configuration
         SafeZone = {
             Enabled = true,  -- Safe Zone feature enabled to prevent attacks in protected areas
             ProtectCD = true,  -- Prevents action when under cooldown protection
-            LowestHealth = 50,  -- Minimum health percentage for safe zone entry
+            LowestHealth = 40,  -- Minimum health percentage for safe zone entry
             HighestHealth = 50,  -- Maximum health percentage for safe zone exit
-            Max = 25000  -- Max height limit for safe zone check
+            Max = 30000  -- Max height limit for safe zone check
         },
         Ken = true,  -- Automatically enables Ken haki when available
         Random = false,  -- Randomly uses skills from all available abilities
@@ -38,9 +38,9 @@ _G.Configs = {
             Melee = {
                 Enable = true,  -- Enables melee weapon attacks
                 Skills = {
-                    Z = {Enable = true, HoldTime = 0.3, Number = 4},  -- Melee Z skill configuration
-                    X = {Enable = true, HoldTime = 0.28, Number = 3},   -- Melee X skill configuration
-                    C = {Enable = true, HoldTime = 0.45, Number = 2}    -- Melee C skill configuration
+                    Z = {Enable = true, HoldTime = 0.35, Number = 2},  -- Melee Z skill configuration
+                    X = {Enable = true, HoldTime = 0.1, Number = 5},   -- Melee X skill configuration
+                    C = {Enable = true, HoldTime = 0.2, Number = 1}    -- Melee C skill configuration
                 },
             },
             ["Blox Fruit"] = {
@@ -56,8 +56,8 @@ _G.Configs = {
             Gun = {
                 Enable = true,  -- Enables gun weapon attacks
                 Skills = {
-                    Z = {Enable = true, HoldTime = 0.2, Number = 5},  -- Gun Z skill configuration
-                    X = {Enable = true, HoldTime = 0.25, Number = 1}   -- Gun X skill configuration
+                    Z = {Enable = true, HoldTime = 0.125, Number = 3},  -- Gun Z skill configuration
+                    X = {Enable = true, HoldTime = 0.125, Number = 4}   -- Gun X skill configuration
                 },
             },
             Sword = {
