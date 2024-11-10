@@ -2,7 +2,7 @@ return {
     Performance = {
         WhiteScreen = false,
         BlackScreen = {
-            Enabled = true,
+            Enabled = false,
             Font = Enum.Font.FredokaOne,
             Transparency = 0.5,
         },
@@ -14,13 +14,13 @@ return {
                 Skills = {
                     X = {
                         Enable = true,
-                        Number = 2,
+                        Number = 3,
                         HoldTime = 0.1,
                     },
                     Z = {
                         Enable = true,
-                        Number = 1,
-                        HoldTime = 0.25,
+                        Number = 2,
+                        HoldTime = 0.2,
                     },
                 },
             },
@@ -29,16 +29,16 @@ return {
                 Skills = {
                     X = {
                         Enable = true,
-                        Number = 5,
+                        Number = 1,
                         HoldTime = 0.1,
                     },
                     C = {
                         Enable = false,
-                        Number = 6,
-                        HoldTime = 0.1,
+                        Number = 4.5,
+                        HoldTime = 0.2,
                     },
                     Z = {
-                        Enable = true,
+                        Enable = false,
                         Number = 4,
                         HoldTime = 0.1,
                     },
@@ -59,18 +59,18 @@ return {
                 Skills = {
                     X = {
                         Enable = true,
-                        Number = 5,
-                        HoldTime = 0.15,
+                        Number = 5.5,
+                        HoldTime = 0.1,
                     },
                     C = {
                         Enable = true,
-                        Number = 4,
-                        HoldTime = 0.35,
+                        Number = 5,
+                        HoldTime = 0.3,
                     },
                     Z = {
                         Enable = true,
-                        Number = 3,
-                        HoldTime = 0.15,
+                        Number = 4,
+                        HoldTime = 0.1,
                     },
                 },
             },
@@ -107,17 +107,16 @@ return {
             URL = "https://discord.com/api/webhooks/1283920521435676713/sYKOXkML2_eWlUMyfA3zcmSlDV5l5Ir9PKmL7uHOFDS-MpatBMZvksimJWgDEbgE-ZN9",
         },
         RandomATK = 35,
-        Limited = 50,
+        Limited = 45,
         MethodClicks = {
             Melee = true,
             CanM1At = 9000,
-            Count = 5,
+            Count = 6,
             Gun = false,
             Delay = 0.25,
             Sword = false,
         },
         IgnoreFruits = {
-            "Portal-Portal",
         },
         Race = {
             V4 = {
@@ -134,7 +133,7 @@ return {
                 },
             },
         },
-        Continue = 7,
+        Continue = 5,
         Dodge = true,
         AutoBounty = true,
         Ken = true,
