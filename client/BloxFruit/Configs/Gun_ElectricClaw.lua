@@ -5,7 +5,7 @@
 _G.Configs = {
     allowed_actions = {
         AutoBounty = true,  -- Automatically targets players for bounty
-        Team = "Pirates",   -- Default team (Options: "Pirates", "Marines")
+        Team = "Marines",   -- Default team (Options: "Pirates", "Marines")
         AutoView = false,   -- Automatically changes camera view
         Limited = 50,      -- Time limit for certain actions
         Continue = 7,      -- Number of allowed continuous actions
