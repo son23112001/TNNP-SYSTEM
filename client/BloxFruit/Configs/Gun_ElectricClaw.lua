@@ -61,7 +61,7 @@ _G.Configs = {
                 },
             },
             Sword = {
-                Enable = false,  -- Disables sword weapon attacks (can be set to true for enabling)
+                Enable = true,  -- Disables sword weapon attacks (can be set to true for enabling)
                 Skills = {
                     Z = {Enable = true, HoldTime = 1.75, Number = 5},  -- Sword Z skill configuration
                     X = {Enable = true, HoldTime = 2.3, Number = 3}    -- Sword X skill configuration
